@@ -1,0 +1,115 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tristan Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="landingPage" class="landing">
+    <div class="landing-content">
+      <div class="profile-pic">
+        <img src="images/me.png" alt="Tristan Profile Photo" class="profile-image">
+      </div>
+      <h1>Tristan Louis</h1>
+      <p>Computer Science Graduate | Data Engineer | Full-Stack Engineer</p>
+      <button id="enterButton">Enter</button>
+    </div>
+  </div>
+
+  <header class="hidden">
+  <div class="header-content">
+    <img src="images/logo.png" alt="Tristan Louis Logo" class="site-logo" />
+    <h1>Welcome to My Portfolio</h1>
+  </div>
+  <nav>
+    <button data-section="about">About</button>
+    <button data-section="projects">Projects</button>
+    <button data-section="certificates">Certificates</button>
+    <button data-section="contact">Contact</button>
+    <button data-section="resume">Resume</button>
+  </nav>
+</header>
+
+  <main>
+    <section id="about" class="hidden section">
+      <h2>About Me</h2>
+      <p>
+        My name is Tristan Louis a proud Haitian-American and the first in my family to graduate from college with a degree in Computer Science from Queens College. Growing up, I didn’t have many examples of people in tech who looked like me, but I made the decision early on to be the one who breaks that barrier. My journey hasn’t been easy, but every step has been driven by determination, resilience, and a deep desire to create opportunities not just for myself, but for those coming after me. I’ve developed projects that combine machine learning, data engineering, and full-stack development from AI sports highlight generators to voice-enabled grocery assistants. These aren’t just lines of code to me; they’re reflections of my creativity, curiosity, and drive to make everyday experiences smarter and more accessible. I’m passionate about building things that matter and proud of how far I’ve come — but I know this is just the beginning. I’m constantly sharpening my skills, learning new technologies, and staying committed to becoming the best engineer I can be. I value collaboration, adaptability, and purpose in the work I do, and I thrive in spaces where ideas are turned into impact. I’m looking for an opportunity to grow with a team that believes in building for the future, and I’m ready to show up and contribute with everything I’ve got.
+      </p>
+    </section>
+
+    <section id="projects" class="hidden section">
+  <h2>Projects</h2>
+
+  <div class="project-card">
+    <h3>
+      <a href="https://github.com/Tristdissmiss/Video-Processing-with-XGB-Classifier-OpenCV-Filters-and-Transitions" target="_blank">
+        AI-powered Video Processing
+      </a>
+    </h3>
+    <p>Developed a system to create highlight reels from sports footage.</p> 
+  </div>
+
+  <div class="project-card">
+    <h3>
+      <a href="https://github.com/Tristdissmiss/Predictive-Analytics-for-Diabetes-Management" target="_blank">
+        Predictive Analytics for Diabetes Management
+      </a>
+    </h3>
+    <p>Applied ML techniques to improve health outcomes and forecast emergency risk.</p>
+  </div>
+
+  <div class="project-card">
+    <h3>
+      <a href="https://github.com/Tristdissmiss/credit-risk" target="_blank">
+        Credit Risk Prediction Using Machine Learning
+      </a>
+    </h3>
+    <p>Built a model that predicts borrower risk using XGBoost and financial data insights.</p>
+  </div>
+
+  <div class="project-card">
+    <h3>
+      <a href="https://github.com/Tristdissmiss/PathMarkBOT/tree/main/pathbot" target="_blank">
+        PathMark Interactive BOT
+      </a>
+    </h3>
+    <p>Created a voice-enabled AI shopping assistant for in-store grocery guidance.</p>
+  </div>
+</section>
+
+
+    <section id="certificates" class="hidden section">
+      <h2>Certificates</h2>
+      <ul>
+        <li>Build Fellowship</li>
+        <li>CodePath TIP102</li>
+        <li>Udemy Full-Stack Web Development Bootcamp</li> 
+        <li>Udemy Python for Data Science & Machine Learning</li>
+
+      </ul>
+    </section>
+
+    <section id="contact" class="hidden section">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:tristanlouie7@gmail.com">tristanlouie7@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/Tristdissmiss" target="_blank">github.com/Tristdissmiss</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/tristan-louis-097659236/" target="_blank">linkedin.com/in/tristan-louis-097659236</a></p>
+    </section>
+
+
+    <section id="resume" class="hidden section">
+      <h2>Resume</h2>
+      <p>I am a full-stack and data-driven developer passionate about building impactful software powered by AI and analytics. View or download my resume below.</p>
+
+      <iframe src="files/resume.pdf" width="100%" height="750px" style="border:none; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2); margin-top: 20px;"></iframe>
+
+      <a href="files/resume.pdf" class="download-button" target="_blank">📄 Download Resume</a>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
